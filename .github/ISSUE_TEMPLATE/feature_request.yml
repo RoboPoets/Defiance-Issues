@@ -1,0 +1,14 @@
+name: "Feature Request"
+description: A new feature you would like to see in the game
+labels: ["feature"]
+body:
+  - type: input
+    attributes:
+      label: Summary
+      description: A short summary of the feature
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: Details about how what the feature is supposed to improve

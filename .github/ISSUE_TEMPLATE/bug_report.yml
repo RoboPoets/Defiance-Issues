@@ -1,0 +1,22 @@
+name: "Bug Report"
+description: Something doesn't work as it should
+labels: ["bug"]
+body:
+  - type: input
+    attributes:
+      label: Game Version
+      description: Demo or full release?
+      placeholder: Demo
+  - type: input
+    attributes:
+      label: System Information
+      description: "The system where the error occurs: OS, GPU model & driver version"
+      placeholder: Win 10, nVidia RTX 3070, 512.33
+  - type: textarea
+    attributes:
+      label: Description
+      description: What doesn't work, and how do you expect it to work instead?
+  - type: textarea
+    attributes:
+      label: (Optional) Savegame File
+      description: A savegame that represents the game state that causes the issue.
